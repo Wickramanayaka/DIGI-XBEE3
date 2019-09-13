@@ -29,7 +29,7 @@ print("Values : ", temp, p)
 4. Copy and paste the below code into REPL
 
 ```python
-fimport hcsr04
+import hcsr04
 from machine import Pin
 p = hcsr04.HCSR04(Pin.board.D0,Pin.board.D1)
 p.distance_mm()
