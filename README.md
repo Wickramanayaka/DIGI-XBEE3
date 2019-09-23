@@ -9,7 +9,7 @@ Micropython Libraries for DIGI-XBEE3
 4. Copy and paste the below code into REPL
 
 ```python
-from bmp import BMP180
+from bmp180 import BMP180
 from machine import I2C, Pin
 bus = I2C(1, freq=100000)
 bmp180 = BMP180(bus)
