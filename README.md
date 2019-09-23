@@ -31,7 +31,7 @@ print("Values : ", temp, p)
 ```python
 import hcsr04
 from machine import Pin
-p = hcsr04.HCSR04(Pin.board.D0,Pin.board.D1)
+p = hcsr04.HCSR04(Pin.board.D3,Pin.board.D2)
 p.distance_mm()
 ```
 5. Press CTRL+D to exit from paste mode and run the code.
