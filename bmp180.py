@@ -4,6 +4,7 @@ import time
 
 class BMP180():
     _bmp_addr = 119
+    gauge = 0
     def __init__(self, i2c_bus):
         _bmp_addr = self._bmp_addr
         self._bmp_i2c = i2c_bus
