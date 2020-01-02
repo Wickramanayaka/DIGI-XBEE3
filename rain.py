@@ -1,4 +1,4 @@
-import Pin from machine
+from machine import Pin 
 import time
 p = Pin(Pin.board.D0, Pin.IN)
 while True:
